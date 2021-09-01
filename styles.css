@@ -1,0 +1,110 @@
+body{
+  background-image: url(./img/bbb.png);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header{
+  background-color:grey;
+
+}
+
+#top{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  height: 50px;
+  font-size: 30px;
+
+}
+
+.pic{
+  background-image: url();
+  margin: 50px auto;
+}
+.pic img{
+  height: 500px;
+  border-radius: 300px;
+}
+
+
+
+.about{
+  margin: 50px auto;
+}
+.about h1{
+  background-color: grey;
+}
+
+
+.techCont{
+  margin: 50px auto;
+}
+.techCont h1{
+  background-color: grey;
+}
+.tech{
+  background-image: url(./img/bbb.png);
+  display: flex;
+  justify-content: space-around;
+}
+.tech img{
+  height: 100px;
+}
+.tech ul{
+  list-style-type: none;
+}
+
+
+
+.projects{
+  margin: 50px auto;
+}
+.projects h1{
+  background-color: grey;
+}
+.project{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.box1{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+.box2{
+  display: flex;
+  justify-content: space-around;
+}
+.box1 i{
+  font-size: 60px;
+  display: flex;
+  color: grey;
+}
+.box2 i{
+  font-size: 100px;
+  display: flex;
+  color: grey;
+}
+.box3{
+  display: flex;
+  justify-content: space-around;
+}
+.box3 input{
+  font-size: 30px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: grey;
+}
+
+
+a{
+  text-decoration: none;
+}

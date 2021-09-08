@@ -1,0 +1,273 @@
+body{
+  background-image: url(./img/bbb.png);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Hina Mincho', serif;
+  margin:-30px 20px;
+}
+
+.header{
+  background-color:grey;
+
+}
+
+#top{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  height: 50px;
+  font-size: 30px;
+}
+
+.pic{
+  background-image: url();
+  margin: 50px auto;
+}
+.pic img{
+  height: 500px;
+  border-radius: 300px;
+}
+
+
+
+.about{
+  margin: 50px auto;
+  font-size: 30px;
+}
+.about h1{
+  background-color: grey;
+}
+
+
+.techCont{
+  margin: 50px auto;
+}
+.techCont h1{
+  background-color: grey;
+}
+.tech{
+  background-image: url(./img/bbb.png);
+  display: flex;
+  justify-content: space-around;
+  margin-top: -40px;
+}
+.tech img{
+  margin-top: 0px;
+  height: 100px;
+}
+.tech ul{
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+
+
+.projects{
+  margin: 50px auto;
+}
+.projects h1{
+  background-color: grey;
+}
+.project{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.proImg{
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.individualProject{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+.background{
+  text-align: center;
+  background-color: white;
+  margin: 30px 100px;
+  padding: 20px;
+  border-radius: 50px;
+}
+#btn{
+  font-size: 40px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  background-color: grey;
+
+
+}
+
+.projects h2{
+  font-size: 60px;
+}
+
+
+
+.box1{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+.box2{
+  display: flex;
+  justify-content: space-around;
+}
+.box1 i{
+  font-size: 60px;
+  display: flex;
+  color: grey;
+}
+.box2 i{
+  font-size: 100px;
+  display: flex;
+  color: grey;
+}
+.box3{
+  display: flex;
+  justify-content: space-around;
+}
+.box3 input{
+  font-size: 30px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: grey;
+}
+
+footer{
+  padding: 20px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+.footer i{
+  font-size: 100px;
+  color: lightblue;
+}
+
+#footerbtn{
+  background-color: lightblue;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+  body{
+    background-image: url(./img/bbb.png);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Hina Mincho', serif;
+    margin:-20px 20px;
+  }
+
+  .header{
+    background-color:grey;
+
+  }
+
+  #top{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  .about{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 30px;
+  }
+
+
+
+  .project{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .proImg{
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+  }
+
+  .individualProject{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  .background{
+    text-align: center;
+    background-color: white;
+    margin: 30px 70px;
+    padding: 15px;
+    border-radius: 50px;
+  }
+
+
+  .projects h2{
+    font-size: 50px;
+  }
+
+
+
+  .box1{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+  }
+  .box2{
+    display: flex;
+    justify-content: space-around;
+  }
+  .box1 i{
+    font-size: 60px;
+    display: flex;
+    color: grey;
+  }
+  .box2 i{
+    font-size: 100px;
+    display: flex;
+    color: grey;
+  }
+  .box3{
+    display: flex;
+    justify-content: space-around;
+  }
+  .box3 input{
+    font-size: 30px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: grey;
+  }
+
+
+  a{
+    text-decoration: none;
+  }
+}

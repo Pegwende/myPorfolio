@@ -21,6 +21,10 @@ body{
   font-size: 30px;
 }
 
+#btn1{
+  color:white;
+}
+
 .pic{
   background-image: url();
   margin: 50px auto;

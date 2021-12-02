@@ -235,6 +235,14 @@ a{
     font-size: 50px;
   }
 
+  #btn{
+    font-size: 40px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-color: grey;
+    color: white;
+  }
+
 
 
   .box1{
